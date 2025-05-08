@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maxperseus130\\Desktop\\Text_based_RPG\\tbRPG_v1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC760F7E-5462-4A9F-807B-2C2AE132354A}|tbRPG_v1\\tbRPG_v1.vcxproj|C:\\Users\\Maxperseus130\\Desktop\\Text_based_RPG\\tbRPG_v1\\tbRPG_v1\\tbRPG_v1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CC760F7E-5462-4A9F-807B-2C2AE132354A}|tbRPG_v1\\tbRPG_v1.vcxproj|solutionrelative:tbRPG_v1\\tbRPG_v1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tbRPG_v1.cpp",
+              "DocumentMoniker": "C:\\Users\\Maxperseus130\\Desktop\\Text_based_RPG\\tbRPG_v1\\tbRPG_v1\\tbRPG_v1.cpp",
+              "RelativeDocumentMoniker": "tbRPG_v1\\tbRPG_v1.cpp",
+              "ToolTip": "C:\\Users\\Maxperseus130\\Desktop\\Text_based_RPG\\tbRPG_v1\\tbRPG_v1\\tbRPG_v1.cpp",
+              "RelativeToolTip": "tbRPG_v1\\tbRPG_v1.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-05-08T18:44:39.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
