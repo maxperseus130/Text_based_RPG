@@ -1,0 +1,35 @@
+
+
+#define MS_PER_UPDATE 4
+
+double getCurrentTime();
+
+void processInput();
+
+void update();
+
+void render(const double ratio);
+
+int main()
+{
+    double previous = getCurrentTime();
+    double lag = 0.0;
+    while (true)
+    {
+        double current = getCurrentTime();
+        double elapsed = current - previous;
+        previous = current;
+        lag += elapsed;
+
+        processInput();
+
+        while (lag >= MS_PER_UPDATE)
+        {
+            update();               //bail cand a ajuns la max iterations
+            lag -= MS_PER_UPDATE;
+        }
+
+        render(lag / MS_PER_UPDATE);
+                                    //trebuie sa aiba pauza explicita pt OS
+    }
+}
