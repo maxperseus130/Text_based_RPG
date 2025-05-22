@@ -1,6 +1,14 @@
 #pragma once
 
 #include "tbRPG.h"
-#include "Command.h"
+#include "InputHandler.h"
 
-void processInput();
+void processInput(Menu& menu)
+{
+	InputHandler inputHandler;
+	Command* command = inputHandler.handleInput();
+	if (command)
+	{
+		command->select(menu);
+	}
+}

@@ -1,11 +1,10 @@
 #pragma once
 
-#include <iostream>
-
-
 #include "processInput.h"
+#include "render.h"
+#include "MainMenu.h"
 #include "Time.h"
 
-void update();
+MainMenu menu;
 
-void render();
+//bool inputMode = false; //ESC si combat

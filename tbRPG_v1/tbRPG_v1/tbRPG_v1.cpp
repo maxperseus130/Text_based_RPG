@@ -5,12 +5,13 @@
 
 int main()
 {
+    menu.afisare();
+
     while (true)
     {
         auto start = getCurrentTime();
-        processInput();
-        update();
-        render();
+        processInput(menu);
+        //render(); pt interfata grafica
 
         SLEEP(start + MS_PER_FRAME - getCurrentTime());
     }

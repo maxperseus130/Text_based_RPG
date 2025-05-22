@@ -128,8 +128,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="GameActor.cpp" />
-    <ClCompile Include="processInput.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
     <ClCompile Include="tbRPG_v1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -138,9 +138,17 @@
   <ItemGroup>
     <ClInclude Include="Command.h" />
     <ClInclude Include="GameActor.h" />
+    <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="processInput.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="tbRPG.h" />
     <ClInclude Include="Time.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tbRPG.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
